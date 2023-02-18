@@ -30,3 +30,6 @@ Copy-Item -Path 'C:\Temp\Steam-blackscreen-fix\Steam\steamapps' -Destination 'C:
 Copy-Item -Path 'C:\Temp\Steam-blackscreen-fix\Steam\userdata' -Destination 'C:\Program Files (x86)\Steam' -Recurse -Force
 Copy-Item -Path  'C:\Temp\Steam-blackscreen-fix\Steam\ssfn*' -Destination 'C:\Program Files (x86)\Steam' -Recurse -Force
 Copy-Item -Path 'C:\Temp\Steam-blackscreen-fix\Steam\steam.exe' -Destination 'C:\Program Files (x86)\Steam' -Force
+
+# Notify user of completion
+Write-Host "Steam has been successfully fixed."
